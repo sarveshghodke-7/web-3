@@ -1,0 +1,5 @@
+{
+  "name": "Nexus Web3 Dashboard",
+  "description": "A technical Web3 portfolio tracker with a JSON-persistent watchlist and real-time market data.",
+  "requestFramePermissions": []
+}

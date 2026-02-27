@@ -14,6 +14,7 @@ import { MarketTable, SortConfig, SortField } from "../ui/MarketTable";
 import { WatchlistSidebar } from "../ui/WatchlistSidebar";
 import { ActivityView } from "../views/ActivityView";
 import { TrendingView } from "../views/TrendingView";
+import { SettingsView } from "../views/SettingsView";
 
 import {
   TrendingUp,
@@ -241,6 +242,8 @@ export default function Dashboard() {
           <ActivityView />
         ) : activeTab === "trending" ? (
           <TrendingView />
+        ) : activeTab === "settings" ? (
+          <SettingsView />
         ) : (
           <div className="p-8 max-w-7xl mx-auto h-[80vh] flex flex-col items-center justify-center">
             <motion.div

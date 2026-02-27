@@ -9,6 +9,16 @@
       "id": "ethereum",
       "symbol": "eth",
       "name": "Ethereum"
+    },
+    {
+      "id": "tether",
+      "symbol": "usdt",
+      "name": "Tether"
+    },
+    {
+      "id": "binancecoin",
+      "symbol": "bnb",
+      "name": "BNB"
     }
   ],
   "portfolio": []

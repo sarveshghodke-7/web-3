@@ -1,8 +1,15 @@
 {
   "watchlist": [
-    { "id": "ethereum", "symbol": "eth", "name": "Ethereum" },
-    { "id": "bitcoin", "symbol": "btc", "name": "Bitcoin" },
-    { "id": "solana", "symbol": "sol", "name": "Solana" }
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin"
+    },
+    {
+      "id": "ethereum",
+      "symbol": "eth",
+      "name": "Ethereum"
+    }
   ],
   "portfolio": []
 }
